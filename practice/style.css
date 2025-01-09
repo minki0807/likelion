@@ -19,8 +19,8 @@ body {
 }
 
 .wrapper {
-    width: 420px;
-    background: purple;
+    width: 500px;
+    background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
@@ -49,7 +49,7 @@ body {
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
-    font-size: 16px;
+    font-size: 17px;
     color: #fff;
     padding: 20px 45px 20px 20px;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 .wrapper .register-link {
-    font-size: 14.5px;
+    font-size: 15px;
     text-align: center;
     margin-top: 20px 0 15px;
 }
