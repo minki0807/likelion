@@ -28,7 +28,7 @@
     font-size: 30px;
 }
 
-/*  position: relative
+/* position: relative
 -> element가 원래 본인 위치 기준으로 자리를 잡음 */
 .relative {
     position: relative;
