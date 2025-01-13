@@ -1,7 +1,7 @@
 .grand-parent {
     /* 박스 스타일링 */
     height: 500px;
-    border: 5px dotted lightsalmon;
+    border: 5px solid rgb(255, 0, 0);
     /* padding : border와 content사이에 주는 간격 */
     padding: 50px;
 }
@@ -9,7 +9,7 @@
 .parent {
     /* 박스 스타일링 */
     height: 500px;
-    border: 5px dotted lightslategray;
+    border: 5px solid rgb(0, 122, 245);
     padding: 10px;
 }
 
@@ -28,10 +28,20 @@
     font-size: 30px;
 }
 
-/* position: relative
--> element가 원래 본인 위치 기준으로 자리를 잡음 */
-.relative {
-    position: relative;
+.position1 {
+    position: fixed;
+    left: 200px;
+    top: 0px;
+}
+
+.position2 {
+    position: static;
+    left: 300px;
+    top: 100px;
+}
+
+.position3 {
+    position: static;
     left: 100px;
-    top: 5px;
+    top: 50px;
 }
