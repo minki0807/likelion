@@ -29,9 +29,9 @@
 }
 
 .position1 {
-    position: fixed;
-    left: 200px;
-    top: 0px;
+    position: relative;
+    left: 50px;
+    top: 50px;
 }
 
 .position2 {
