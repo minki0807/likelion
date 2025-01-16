@@ -11,6 +11,7 @@
     height: 500px;
     border: 5px solid rgb(0, 122, 245);
     padding: 10px;
+    position: relative;
 }
 
 .child {
@@ -29,9 +30,9 @@
 }
 
 .position1 {
-    position: relative;
-    left: 50px;
-    top: 50px;
+    position: fixed;
+    left: 0px;
+    top: 150px;
 }
 
 .position2 {
