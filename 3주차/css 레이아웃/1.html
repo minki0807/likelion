@@ -12,15 +12,30 @@
             display: flex; /* Flexbox 활성화 */
             background-color: lightgray;
             padding: 20px;
+            flex-wrap: wrap;
+            align-content: space-between;
+            height: 300px;
+        }
+
+        @media (max-width:350px) {
+            .container {
+                background-color: rgb(9, 32, 239);
+            }
         }
         
         .item {
             background-color: tomato;
             color: white;
             padding: 20px;
-            margin: 10px;
-                    
+            margin: 20px;
+    
+              
         }
+
+        .item:nth-child(2) {
+            align-self: flex-end;
+        }
+        
 
 </style>
 
@@ -30,6 +45,9 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
     </div>
 
 </body>
