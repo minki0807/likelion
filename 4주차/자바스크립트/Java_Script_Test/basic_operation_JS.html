@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Function Example</title>
+</head>
+<body>
+    <div id="output"></div>  <!-- 결과를 표시할 영역 -->
+
+    <script>
+        function dynamicFunction() {
+            return function() {
+                document.getElementById("output").innerHTML = "Hello World!";
+            };
+        }
+
+        let func = dynamicFunction();  // 실행 중에 새로운 함수 생성
+        func();  // 화면에 출력
+    </script>
+</body>
+</html>
