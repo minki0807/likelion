@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>배열 4_추가,삭제,정렬</title>
+  </head>
+  <body>
+    <script>
+      function get_members() {
+        return ["lion", "Java Script", "array"];
+      }
+
+      var member = get_members();
+
+      document.write(member);
+
+      document.write("<br>");
+// 추가
+      member.push("hello");
+      document.write(member);
+
+      document.write("<br>");
+
+      member = member.concat("cheer", "up");
+      document.write(member);
+
+      document.write("<br>");
+
+      member.unshift("unshift");
+      document.write(member);
+
+      document.write("<br>");
+
+      member.splice(1, 0, "a", "b");
+      document.write(member);
+
+      document.write("<br>");
+// 정렬
+      member.sort();
+      document.write(member);
+
+      document.write("<br>");
+
+      member.reverse();
+      document.write(member);
+
+      document.write("<br>");
+// 삭제 
+      member.shift();
+      document.write(member);
+
+      document.write("<br>");
+
+      member.pop();
+      document.write(member);
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>배열 3_반복문</title>
+  </head>
+  <body>
+    <script>
+      function get_members() {
+        return ["lion", "Java Script", "array"];
+      }
+
+      var member = get_members();
+
+      document.write(member[0] + "<br>");
+      document.write(member[1] + "<br>");
+      document.write(member[2] + "<br>");
+
+      for (var i = 0; i < member.length; i++) {
+        document.write(member[i] + "<br>");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>객체 1</title>
+  </head>
+  <body>
+    <script>
+      var fruit = { apple: 5, banana: 10, grape: 2 };
+      document.write(fruit.apple);
+      document.write(fruit["banana"]);
+
+      var fruit = {};
+      fruit["apple"] = 5;
+      fruit["banana"] = 10;
+      fruit["grape"] = 2;
+
+      var fruit = new Object();
+      fruit["apple"] = 5;
+      fruit["banana"] = 10;
+      fruit["grape"] = 2;
+
+      for (var name in fruit) {
+        document.write(
+          "<li>name :" + name + " value: :" + fruit[name] + "</li>"
+        );
+      }
+    </script>
+  </body>
+</html>
