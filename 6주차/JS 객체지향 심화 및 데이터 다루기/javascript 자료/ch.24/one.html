@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Console Test</title>
+</head>
+<body>
+    <h1>콘솔에서 결과 확인</h1>
+    <p>F12 또는 Ctrl+Shift+I를 눌러 개발자 도구를 열고 콘솔을 확인하세요.</p>
+
+    <script>
+        var arr = new Array('Seoul', 'New York', 'Ladakh', 'Pusan', 'Tsukuba');
+
+        function getRandomValueFromArray(arr) {
+            var index = Math.floor(arr.length * Math.random());
+            return arr[index]; // 새로고침 시 랜덤한 값 반환 //floor는 소숫점 제거 역할
+        }
+
+        console.log(getRandomValueFromArray(arr));
+    </script>
+</body>
+</html>
